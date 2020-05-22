@@ -1,0 +1,6 @@
+2020-05-21T09:33:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\N-E\wp-includes\Requests\Transport\cURL.php on line 463
+
+2020-05-21T09:38:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\N-E\wp-admin\includes\class-wp-filesystem-direct.php on line 81
+
+2020-05-21T10:31:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-admin\includes\class-wp-filesystem-direct.php en la línea 81
+

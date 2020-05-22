@@ -147,6 +147,80 @@ msgstr "Pie de página"
 msgid "Primary Color"
 msgstr "Color Principal"
 
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no hay nada en esa ubicación ¿quieres probar a buscar?"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se pudo encontrar esa página."
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr "Comentarios cerrados."
+
+#: template-parts/header/site-branding.php:46 functions.php:61
+msgid "Social Links Menu"
+msgstr "Menú de enlaces sociales"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir al contenido"
+
+#: template-parts/content/content-single.php:40
+#: template-parts/content/content.php:49
+#: template-parts/content/content-page.php:27 image.php:52
+msgid "Pages:"
+msgstr "Páginas:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: template-parts/content/content-single.php:27
+#: template-parts/content/content.php:36
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continuar leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: comments.php:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: comments.php:95
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:41
+msgid "Previous Post"
+msgstr "Entrada anterior:"
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr "Nada encontrado"
+
+#. translators: 1: Link to WP admin new post page.
+#: template-parts/content/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>"
+
+#: template-parts/content/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero no encaja nada con los términos de la búsqueda. Inténtalo de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás buscando. Puede que una búsqueda te ayude."
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr "Menú superior"
+
+#. translators: Used between list items, there is a space after the comma.
+#: inc/template-tags.php:86 inc/template-tags.php:98
+msgid ", "
+msgstr ", "
+
+#: single.php:38
+msgid "Next Post"
+msgstr "Siguiente entrada"
+
 #: template-parts/post/discussion-meta.php:18
 msgid "No comments"
 msgstr "No hay comentarios"
@@ -167,58 +241,13 @@ msgstr "Ver más entradas"
 msgid "Published by %s"
 msgstr "Publicado por %s"
 
-#: template-parts/header/site-branding.php:33
-msgid "Top Menu"
-msgstr "Menú superior"
-
-#. translators: %s: Post title. Only visible to screen readers.
-#: template-parts/content/content-single.php:27
-#: template-parts/content/content.php:36
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuar leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
-
-#: template-parts/content/content-single.php:40
-#: template-parts/content/content.php:49
-#: template-parts/content/content-page.php:27 image.php:52
-msgid "Pages:"
-msgstr "Páginas:"
-
-#: template-parts/content/content-none.php:46
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Parece que no encontramos lo que estás buscando. Puede que una búsqueda te ayude."
-
-#: template-parts/content/content-none.php:39
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Lo sentimos, pero no encaja nada con los términos de la búsqueda. Inténtalo de nuevo con algunas palabras clave diferentes."
-
-#. translators: 1: Link to WP admin new post page.
-#: template-parts/content/content-none.php:26
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>"
-
-#: template-parts/content/content-none.php:16
-msgid "Nothing Found"
-msgstr "Nada encontrado"
-
 #: single.php:42
 msgid "Previous post:"
-msgstr "Entrada anterior:"
-
-#: single.php:41
-msgid "Previous Post"
 msgstr "Entrada anterior:"
 
 #: single.php:39
 msgid "Next post:"
 msgstr "Siguiente entrada:"
-
-#: single.php:38
-msgid "Next Post"
-msgstr "Siguiente entrada"
-
-#: search.php:22
-msgid "Search results for: "
-msgstr "Resultados de la búsqueda de: "
 
 #: inc/template-tags.php:234
 msgid "Older posts"
@@ -235,11 +264,6 @@ msgstr "Etiquetas:"
 #: inc/template-tags.php:92
 msgid "Posted in"
 msgstr "Publicada en"
-
-#. translators: Used between list items, there is a space after the comma.
-#: inc/template-tags.php:86 inc/template-tags.php:98
-msgid ", "
-msgstr ", "
 
 #. translators: %s: Post title. Only visible to screen readers.
 #: inc/template-tags.php:63
@@ -303,14 +327,6 @@ msgstr "Archivo de categoría: "
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
-#: header.php:25
-msgid "Skip to content"
-msgstr "Ir al contenido"
-
-#: template-parts/header/site-branding.php:46 functions.php:61
-msgid "Social Links Menu"
-msgstr "Menú de enlaces sociales"
-
 #: functions.php:59
 msgid "Primary"
 msgstr "Primario"
@@ -319,18 +335,6 @@ msgstr "Primario"
 #: footer.php:28
 msgid "Proudly powered by %s."
 msgstr "Orgullosamente impulsado por %s"
-
-#: comments.php:116
-msgid "Comments are closed."
-msgstr "Comentarios cerrados."
-
-#: comments.php:96
-msgid "Next"
-msgstr "Siguiente"
-
-#: comments.php:95
-msgid "Previous"
-msgstr "Anterior"
 
 #: comments.php:92 comments.php:95 comments.php:96
 msgid "Comments"
@@ -376,13 +380,9 @@ msgstr "%1$s a las %2$s"
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr "%s <span class=\"screen-reader-text says\">dice:</span>"
 
-#: 404.php:24
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Parece que no hay nada en esa ubicación ¿quieres probar a buscar?"
-
-#: 404.php:20
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "¡Vaya! No se pudo encontrar esa página."
+#: search.php:22
+msgid "Search results for: "
+msgstr "Resultados de la búsqueda de: "
 
 #. Theme URI of the theme
 msgid "https://wordpress.org/themes/twentynineteen/"
