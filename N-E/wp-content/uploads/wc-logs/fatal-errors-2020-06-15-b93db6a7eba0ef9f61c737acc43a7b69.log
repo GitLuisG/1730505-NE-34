@@ -1,0 +1,12 @@
+2020-06-15T17:55:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-includes\Requests\Transport\cURL.php en la línea 163
+
+2020-06-15T19:04:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-includes\class-wp-image-editor.php en la línea 489
+
+2020-06-15T22:16:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\plugins\js_composer\include\classes\core\class-vc-base.php en la línea 2
+
+2020-06-15T22:28:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-includes\wp-db.php en la línea 2024
+
+2020-06-15T22:40:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-includes\class-wp-image-editor.php en la línea 489
+
+2020-06-15T22:43:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-includes\class-wp-image-editor.php en la línea 489
+

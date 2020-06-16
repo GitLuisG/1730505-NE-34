@@ -75,23 +75,14 @@ class Analytics {
 	 * Registers report pages.
 	 */
 	public function register_pages() {
-		$features = wc_admin_get_feature_config();
-
 		$report_pages = array(
 			array(
 				'id'       => 'woocommerce-analytics',
 				'title'    => __( 'Analytics', 'woocommerce' ),
-				'path'     => '/analytics/overview',
-				'path'     => $features['homepage'] ? '/analytics/overview' : '/analytics/revenue',
+				'path'     => '/analytics/revenue',
 				'icon'     => 'dashicons-chart-bar',
 				'position' => 56, // After WooCommerce & Product menu items.
 			),
-			$features['homepage'] ? array(
-				'id'       => 'woocommerce-analytics-overview',
-				'title'    => __( 'Overview', 'woocommerce' ),
-				'parent' => 'woocommerce-analytics',
-				'path'     => '/analytics/overview',
-			) : null,
 			array(
 				'id'     => 'woocommerce-analytics-revenue',
 				'title'  => __( 'Revenue', 'woocommerce' ),

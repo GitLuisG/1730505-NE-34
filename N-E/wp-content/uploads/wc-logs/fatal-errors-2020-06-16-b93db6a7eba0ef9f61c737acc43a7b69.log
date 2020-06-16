@@ -1,0 +1,20 @@
+2020-06-16T00:17:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\widgets\class-widget-twitter.php en la línea 1
+
+2020-06-16T00:17:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\plugins\mailchimp-for-wp\includes\forms\class-widget.php en la línea 129
+
+2020-06-16T00:19:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\functions.php en la línea 1
+
+2020-06-16T00:19:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\functions.php en la línea 1
+
+2020-06-16T00:20:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-exporters.php en la línea 11
+
+2020-06-16T00:20:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\ProductOnSale.php en la línea 10
+
+2020-06-16T00:21:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\widgets\class-user-panel-widget.php en la línea 1
+
+2020-06-16T00:21:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\shortcodes\popup.php en la línea 1
+
+2020-06-16T00:21:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\themes\woodmart\inc\shortcodes\product-filters.php en la línea 1
+
+2020-06-16T00:22:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en C:\xampp\htdocs\N-E\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AllReviews.php en la línea 10
+

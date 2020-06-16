@@ -146,7 +146,6 @@ if ( ! function_exists( __NAMESPACE__ . '\autoloader' ) ) {
 					$class_name,
 					array(
 						'Automattic\Jetpack\Connection\Manager',
-						'Jetpack_Options',
 					),
 					true
 				);

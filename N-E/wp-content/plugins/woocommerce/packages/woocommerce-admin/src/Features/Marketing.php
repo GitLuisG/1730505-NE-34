@@ -129,13 +129,8 @@ class Marketing {
 				$plugins = json_decode( $request['body'], true );
 			}
 
-			set_transient(
-				self::RECOMMENDED_PLUGINS_TRANSIENT,
-				$plugins,
-				// Expire transient in 15 minutes if remote get failed.
-				// Cache an empty result to avoid repeated failed requests.
-				empty( $plugins ) ? 900 : 3 * DAY_IN_SECONDS
-			);
+			// Cache an empty result to avoid repeated failed requests.
+			set_transient( self::RECOMMENDED_PLUGINS_TRANSIENT, $plugins, 3 * DAY_IN_SECONDS );
 		}
 
 		return array_values( $plugins );
@@ -191,12 +186,7 @@ class Marketing {
 				}
 			}
 
-			set_transient(
-				self::KNOWLEDGE_BASE_TRANSIENT,
-				$posts,
-				// Expire transient in 15 minutes if remote get failed.
-				empty( $posts ) ? 900 : DAY_IN_SECONDS
-			);
+			set_transient( self::KNOWLEDGE_BASE_TRANSIENT, $posts, DAY_IN_SECONDS );
 		}
 
 		return $posts;

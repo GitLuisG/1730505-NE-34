@@ -71,7 +71,6 @@ class AnalyticsDashboard {
 				'dashboard_chart_type',
 				'dashboard_chart_interval',
 				'dashboard_leaderboard_rows',
-				'homepage_stats',
 			)
 		);
 	}
@@ -80,14 +79,10 @@ class AnalyticsDashboard {
 	 * Registers dashboard page.
 	 */
 	public function register_page() {
-		$features = wc_admin_get_feature_config();
-		$id       = $features['homepage'] ? 'woocommerce-home' : 'woocommerce-dashboard';
-		$title    = $features['homepage'] ? __( 'Home', 'woocommerce' ) : __( 'Dashboard', 'woocommerce' );
-
 		wc_admin_register_page(
 			array(
-				'id'     => $id,
-				'title'  => $title,
+				'id'     => 'woocommerce-dashboard',
+				'title'  => __( 'Dashboard', 'woocommerce' ),
 				'parent' => 'woocommerce',
 				'path'   => self::MENU_SLUG,
 			)
