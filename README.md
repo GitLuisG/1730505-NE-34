@@ -20,7 +20,7 @@ Ejemplo Capitulo 3
 Ejemplo Capitulo 2
 <hr>
 
-![Demostracion](Home Depot.gif)
+![Demostracion](HomeDepot.gif)
 
 Ejemplo Capitulo 1
 <hr>
