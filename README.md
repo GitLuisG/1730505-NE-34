@@ -3,7 +3,7 @@
 Ejemplo Cuenta de usuario de tipo admin
 <hr>
 
-![Demostracion](img.png)
+![Demostracion](Img.png)
 <hr>
 
 Ejemplo Sitio
